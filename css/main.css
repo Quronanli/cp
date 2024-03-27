@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+#header {
+    width: 1440px;
+    height: 100px;
+    background: #7AAFD5;
+}
+#profileImg {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+#profTxt {
+    position: absolute;
+    left: 16px;
+    top: 76px;
+    font-size: 14px;
+    color: white;
+}
+#profTxt:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+#logoTxt {
+    position: absolute;
+    top: 31px;
+    left: 367px;
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+}
+#ct {
+    position: absolute;
+    top: 40px;
+    left: 837px;
+    color: #fff;
+    font-size: 18px;
+    font-style: italic;
+}
+#ct:hover {
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: bolder;
+    cursor: pointer;
+}
+#pn {
+    position: absolute;
+    top: 40px;
+    left: 982px;
+    color: #fff;
+    font-size: 18px;
+    font-style: italic;
+    
+}
+#pn:hover {
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: bolder;
+    cursor: pointer;
+}
+#vg {
+    position: absolute;
+    top: 40px;
+    left: 1124px;
+    color: #fff;
+    font-size: 18px;
+    font-style: italic;
+}
+#vg:hover {
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: bolder;
+    cursor: pointer;
+}
+#cn {
+    position: absolute;
+    top: 40px;
+    left: 1257px;
+    color: #fff;
+    font-size: 18px;
+    font-style: italic;
+}
+#cn:hover {
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: bolder;
+    cursor: pointer;
+}
+#t1 {
+    font-size: 32px;
+    margin: 30px 0 0 40px;
+}
+#t2 {
+    font-size: 24px;
+    width: 624px;
+    font-weight: 300;
+    margin: 60px 0 0 40px
+}
+#aM {
+    margin: 60px 0 0 40px;
+}
+#pr {
+    position: absolute;
+    left: 850px;
+    top: 134px;
+}
+#line {
+    position: absolute;
+    top: 134px;
+    left: 790px;
+}
+#bt1 {
+    position: absolute;
+    height: 25px;
+    width: 102px;
+    background-color: #7DB1D7;
+    top: 610px;
+    left: 129px;
+}
+#bt1:hover {
+    background-color: #44809A;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+#bt2 {
+    position: absolute;
+    height: 25px;
+    width: 102px;
+    background-color: #7DB1D7;
+    top: 610px;
+    left: 338px;
+}
+#bt2:hover {
+    background-color: #44809A;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+#bt3 {
+    position: absolute;
+    height: 25px;
+    width: 102px;
+    background-color: #7DB1D7;
+    top: 610px;
+    left: 548px;
+}
+#bt3:hover {
+    background-color: #44809A;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.tbt {
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    margin: 4px;
+}
+#finf {
+    margin: 50px 0 0 0;
+    height: 200px;
+    width: 1440px;
+    background-color: #7AAFD5;
+}
+.mImg {
+    margin: 20px 0 0 200px;
+}
+#t3 {
+    position: absolute;
+    color: #fff;
+    margin: 10px 0 0 176px;
+    font-size: 16px;
+    width: 135px;
+    text-align: center;
+}
+#t4 {
+    position: absolute;
+    color: #fff;
+    margin: 10px 0 0 481px;
+    font-size: 16px;
+    width: 135px;
+    text-align: center;
+}
+#t5 {
+    position: absolute;
+    color: #fff;
+    margin: 10px 0 0 780px;
+    font-size: 16px;
+    width: 135px;
+    text-align: center;
+}
+#t6 {
+    position: absolute;
+    color: #fff;
+    margin: 10px 0 0 1082px;
+    font-size: 16px;
+    width: 135px;
+    text-align: center;
+}
+#t7 {
+    font-size: 32px;
+    margin: 30px 0 0 40px;
+    
+}
+#t8 {
+    font-size: 24px;
+    width: 624px;
+    font-weight: 300;
+    margin: 16px 0 0 40px
+}
+#maImg2 {
+    position: absolute;
+    top: 965px;
+    left: 862px;
+}
+#t9 {
+    font-size: 32px;
+    margin: 30px 0 0 40px;
+}
+.row {
+    margin: 50px 0 0 0;
+    height: 400px;
+}
+.unit {
+    height: 339px;
+    width: 265px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin: 0 0 0 145px;
+    float: left;
+}
+.unit:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(15, 128, 221, 0.5);
+    transform: scale(1.2);
+}
+.price {
+    font-family: "Caveat", cursive;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+.cou {
+    font-family: "Caveat", cursive;
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+}
+#review {
+    height: 400px;
+    background-color: #a0ccec;
+    width: 1440px;
+}
+.t10 {
+    margin: 0 0 0 32px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+}
+.rev {
+    height: 145px;
+    width: 671px;
+    float: left;
+    margin: 12px 0 8px 32px;
+    background-color: #fff;
+}
+.nameRev {
+    font-family: "Caveat", cursive;
+    font-size: 20px;
+    color: #a0cdee;
+    font-weight: 500;
+margin: 8px 0 0 8px;
+}
+.txtRev {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 5px 0  0  8px;
+}
+#addName {
+    height: 25px;
+    width: 115px;
+    background-color: #fff;
+    margin: 8px 0 0 32px;
+}
+.addNameTxt {
+    font-weight: 16px;
+    opacity: 0.65;
+    margin: 0 0 0 8px;
+}
+#userRev {
+    background-color: #fff;
+    height: 109px;
+    width: 671px;
+    margin: 8px 0 0 32px;
+}
+#sendBt {
+    height: 25px;
+    width: 80px;
+    background-color: #fff;
+    
+    margin: 8px 0 0 32px;
+}
+#send {
+    color: #7DB1D7;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+}
+#sendBt:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(15, 128, 221, 0.5);
+}
+#footer {
+    height: 140px;
+    width: 1440px;
+    background-color: #7DB1D7;
+}
+#plane2 {
+    float: left;
+}
+#logo2 {
+    font-size: 32px;
+    color: #fff;
+    font-weight: bold;
+    float: left;
+    margin: 55px 0 0 30px;
+}
+.group {
+    float: left;
+    margin: 20px 0 0 50px;
+}
+.t11 {
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.t12 {
+    text-align: center;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 8px 0 0 0;
+}
+.t12:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
